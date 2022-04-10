@@ -2,9 +2,15 @@ import '../styles/globals.css'
 import { ChakraProvider } from '@chakra-ui/react'
 
 
-function MyApp({ Component, pageProps }) {
+const MyApp = ({ Component, pageProps }) => {
   return(
     <ChakraProvider>
+      <style global jsx>{`
+        *{
+          margin:0px;
+          padding:0px;
+        }
+      `}</style>
       <Component {...pageProps} />
     </ChakraProvider>
   ) 

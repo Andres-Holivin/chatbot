@@ -1,0 +1,22 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "yarn --cwd ./client dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holivin21/chatbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holivin21/chatbot/issues"
+  },
+  "homepage": "https://github.com/holivin21/chatbot#readme",
+  "dependencies": {
+    "yarn": "^1.22.18"
+  }
+}
