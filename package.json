@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "yarn --cwd ./client dev"
+    "dev": "yarn --cwd ./client dev",
+    "build": "yarn build"
   },
   "repository": {
     "type": "git",
